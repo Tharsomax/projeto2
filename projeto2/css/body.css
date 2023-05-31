@@ -1,0 +1,144 @@
+body{
+    background: hsl(204, 43%, 93%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.div1{
+    background: #FFFFFF;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: -1px -1px 15px #C2C2C2;
+    margin-top: 155px;
+    padding: 25px;
+    padding-inline:42px;
+}
+
+.design__Join{
+    color:hsl(179, 62%, 43%); 
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+h3{
+    color:  hsl(71, 73%, 54%);
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+
+p{
+    color:hsl(179, 62%, 43%);
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.div2{
+    padding: 14px;
+    background:hsl(179, 62%, 43%);  
+    border-radius: 0px 0px 0px 8px;
+}
+ 
+.design__Monthly{
+    color: hsl(204, 43%, 93%);
+    font-size: 20px;
+    margin-top: -24px;
+    padding-left: 22px;
+    padding-top: 40px; 
+}
+
+.design{
+    color: hsl(204, 43%, 93%);
+    font-size: 35px;
+    padding-left: 22px;
+    padding-top: 0px;
+}
+
+#month{
+    color: #C2C2C2;
+    font-size: 15px;
+    margin-left: 94px;
+    margin-top: -67px;
+    position: absolute;
+}
+
+.design__p{
+    color:hsl(204, 43%, 93%);
+    font-size: 15px;
+    margin-top: -22px;
+    padding-bottom: 25px;
+    padding-left: 22px;
+}
+
+.enviar{
+   background-color: #FFDA36;
+   border: none;
+   border-radius: 5px;
+   color: hsl(204, 43%, 93%);
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-top: -8px;
+   padding: 15px;
+   width: 92%;
+}
+
+.div3{
+    background: hsl(179, 75%, 43%);
+    border-radius: 0px 0px 8px 0px;
+    padding: 33px;
+    padding-inline: 54px;
+}
+
+.item__Why {
+    color: hsl(204, 43%, 93%);
+    font-size: 18px;
+}
+
+.itens {
+    color: hsl(204, 43%, 93%);
+    font-size: 13px;
+    list-style: none;
+    margin-left: -2.7rem;
+    padding: 0.1rem;
+}
+
+@media screen and (max-width:480px) { 
+    .flex-container{
+        display: grid;
+    }
+    .div1{
+        margin-top: 0px;
+        width: 205px;
+    }
+    .div2{
+        border-radius: 0px 0px 0px 0px;
+    }
+    .div3{
+        border-radius: 0px 0px 8px 8px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .flex-container{
+        display: grid;
+    }
+    .div1{
+        margin-top: 0px;
+        width: 205px;
+    }
+    .div2{
+        border-radius: 0px 0px 0px 0px;
+    }
+    .div3{
+        border-radius: 0px 0px 8px 8px;
+    }
+}
